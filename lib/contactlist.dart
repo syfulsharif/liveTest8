@@ -40,14 +40,19 @@ class _ContactListViewState extends State<ContactListView> {
                           const Text(
                             'Contact Details: ',
                             style: TextStyle(
-
                               fontSize: 20.0,
                               fontWeight: FontWeight.bold,
                             ),
                           ),
-                          Text(contactList[index].name),
-                          Text(contactList[index].email),
-                          Text(contactList[index].phone),
+                          const SizedBox(
+                            width: double.infinity,
+                            height: 10.0,
+                          ),
+                          Text(
+                            'Name: ${contactList[index].name}',
+                          ),
+                          Text('Email: ${contactList[index].email}'),
+                          Text('Phone Number: ${contactList[index].phone}'),
                         ],
                       );
                     });
