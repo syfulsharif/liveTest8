@@ -2,15 +2,10 @@
 
 Live Test 8 Ostad
 
-## Getting Started
+## Screenshots are as follows
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
+![1](https://github.com/syfulsharif/liveTest8/assets/2669892/112efe50-88ff-422e-8500-a6f8566e9e31)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+![2](https://github.com/syfulsharif/liveTest8/assets/2669892/97a58ef7-5b70-4abe-adb6-185e430fff04)
