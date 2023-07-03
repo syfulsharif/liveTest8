@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:livetest8/contactlist.dart';
 
 
 void main() {
@@ -15,7 +16,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'To Do',
       theme: ThemeData(primarySwatch: Colors.green),
-      home: const ToDoAppView(),
+      home: const ContactListView(),
     );
   }
 }
