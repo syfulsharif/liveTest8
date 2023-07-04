@@ -34,26 +34,30 @@ class _ContactListViewState extends State<ContactListView> {
                 showModalBottomSheet(
                     context: context,
                     builder: (context) {
-                      return Column(
-                        mainAxisAlignment: MainAxisAlignment.start,
-                        children: [
-                          const Text(
-                            'Contact Details: ',
-                            style: TextStyle(
-                              fontSize: 20.0,
-                              fontWeight: FontWeight.bold,
+                      return Padding(
+                        padding: const EdgeInsets.all(15.0),
+                        child: Column(
+                          // mainAxisAlignment: MainAxisAlignment.start,
+                          crossAxisAlignment: CrossAxisAlignment.start,
+                          children: [
+                            const Text(
+                              'Contact Details: ',
+                              style: TextStyle(
+                                fontSize: 20.0,
+                                fontWeight: FontWeight.bold,
+                              ),
                             ),
-                          ),
-                          const SizedBox(
-                            width: double.infinity,
-                            height: 10.0,
-                          ),
-                          Text(
-                            'Name: ${contactList[index].name}',
-                          ),
-                          Text('Email: ${contactList[index].email}'),
-                          Text('Phone Number: ${contactList[index].phone}'),
-                        ],
+                            const SizedBox(
+                              width: double.infinity,
+                              height: 10.0,
+                            ),
+                            Text(
+                              'Name: ${contactList[index].name}',
+                            ),
+                            Text('Email: ${contactList[index].email}'),
+                            Text('Phone Number: ${contactList[index].phone}'),
+                          ],
+                        ),
                       );
                     });
               },
